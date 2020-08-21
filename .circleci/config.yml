@@ -1,0 +1,99 @@
+print('\t\t\tHello to the math quiz')
+print('\t\t\tI will be giving you ten questions and you have to answer')
+print('\t\t\tLets see how many marks you will get')
+print('\t\t\tThe further you go the harder the question get')
+print("\tBut the twist in this game is that every time you write a wrong answer i will decrease 1/2 marks")
+correctanswers=0
+
+print("\nOur first level is ADDITION")
+print('\nFirst Question')
+one=input("1+3 :")
+if (one=="4"):
+	correctanswers=correctanswers+1
+	print("\nCORRECT ANSWER!!!!")
+else:
+	print("\nWRONG ANSWER")
+	correctanswers=correctanswers-0.5
+
+print('\nSecond question')
+two=input("11+13 :")
+if (two=="24"):
+	correctanswers=correctanswers+1
+	print("\nCORRECT ANSWER!!!!")
+else:
+	print("\nWRONG ANSWER")
+	correctanswers=correctanswers-0.5
+
+print("\nThird question")
+three=input("24+21 :")
+if (three=="45"):
+	correctanswers=correctanswers+1
+	print("\nCORRECT ANSWER!!!!")
+else:
+	print("\nWRONG ANSWER")
+	correctanswers=correctanswers-0.5
+	print("\nFourth question")
+	four=input("63+71 :")
+if(four=="134"):
+	correctanswers=correctanswers+1
+	print("\nCorrect answer!!!!")
+else:
+	print("\nWRONG ANSWER")
+	correctanswers=correctanswers-0.5
+
+print("\nFifth question")
+five=input("101+203 :")
+if(five=="304"):
+	correctanswers=correctanswers+1
+	print("\nCORRECT ANSWER")
+else:
+	print("\nWRONG ANSWER")
+	correctanswers=correctanswers-0.5
+
+print("\nsixth question")
+print("Now we are onto the next level which is MULTIPLICATION")
+six=input("12*6 :")
+if(six=="72"):
+	print("Correct answer!!!!")
+else:
+	print("\nWRONG ANSWER")
+	correctanswers=correctanswers-0.5
+
+print("\nSeventh question")
+seven=input("14*7 :")
+if(seven=="98"):
+	correctanswers=correctanswers+1
+	print("\nCORRECT ANSWER!!!!")
+else:
+	print("\nWRONG ANSWER")
+	correctanswers=correctanswers-0.5
+
+print("\nEight question")
+eight=input("21*4 :")
+if(eight=="84"):
+	print("\nCORRECT ANSWER!!!!")
+	correctanswers=correctanswers+1
+else:
+	print("\nWRONG ANSWER")
+	correctanswers=correctanswers-0.5
+
+print("\nNinth question")
+nine=input("33*3 :")
+if(nine=="99"):
+	print("\nYOU ARE A GOD AT MATH")
+	correctanswers=correctanswers+1
+else:
+	print("\nYOU ARE A BOT AT MATH SO EAT LADY FINGER")
+	correctanswers=correctanswers-0.5
+
+print("\nThis is the last question and the most important one because if you answer wrong you will lose two marks")
+print("\nTenth question!")
+tenth=input("12-18+6*4 :")
+if(tenth=="6"):
+	print("\nYOU ARE ON OF THE GREATEST MATHEMATICIAN ON EARTH")
+	correctanswers=correctanswers+1
+else:
+	correctanswers=correctanswers-2
+	print("\nYOU SHOULD EAT A LOT OF BENDAKAYA")
+
+print( ("congrats ") +("you scored") + str(correctanswers) +("marks"))
